@@ -3,4 +3,31 @@ How do you manage same dependency in multiple projects.   -> https://dzone.com/a
 3. How do you control volume of data getting injected into you data warehouse.
 4. What is you day to day activities
 5. What are the KPI's you use as part of your project.
+6. 
+  Market Date	Closing Price
+07-07-2015	51.38
+08-07-2015	52.3
+09-07-2015	52.59
+10-07-2015	53.21
+11-07-2015	53.51
+12-07-2015	53.74
+
+
+output:
+Market Date	Closing Price	MA10
+07-07-2015	51.38	50.641	
+08-07-2015	52.3	50.68	
+09-07-2015	52.59	50.956
+10-07-2015	53.21	51.434
+11-07-2015	53.51	51.841
+12-07-2015	53.74	52.161
+
+
+Spark:
+------
+What is the difference between Persist and Cache?
+
+
+Azure:
+------
 
