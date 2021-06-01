@@ -31,3 +31,38 @@ What is the difference between Persist and Cache?
 Azure:
 ------
 
+
+Program:
+--------
+1)
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+Example:
+Input: s = "anagram", t = "nagaram"
+Output: true
+
+
+Sql:
+------
+
+Department top 3 salary 
+
+Employee table:
++----+-------+--------+--------------+
+| Id | Name  | Salary | DepartmentId |
++----+-------+--------+--------------+
+| 1  | Joe   | 85000  | 1            |
+| 2  | Henry | 80000  | 2            |
+| 3  | Sam   | 60000  | 2            |
+| 4  | Max   | 90000  | 1            |
+| 5  | Janet | 69000  | 1            |
+| 6  | Randy | 85000  | 1            |
+| 7  | Will  | 70000  | 1            |
++----+-------+--------+--------------+
+
+Department table:
++----+-------+
+| Id | Name  |
++----+-------+
+| 1  | IT    |
+| 2  | Sales |
++----+
