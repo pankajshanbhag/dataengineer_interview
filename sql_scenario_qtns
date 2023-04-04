@@ -1,0 +1,32 @@
+
+1) Find second highest salary in department:
+
+  ```
+  select max(salary) from table where salary not in ( salary max(salary) from table)
+  
+  ```
+  
+  ```
+  with cte
+  as
+  (
+  select top 2 * from table order by salary desc
+  )
+  select top 1 from cte order by salary asc
+  
+  ```
+  
+  ```
+  with cte 
+  as
+  (
+  select row_number() over(order by salary desc) as new_emp_id from table
+  )
+  select salary from cte where new_emp_id=2
+  
+  
+  -------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+  
+  
+  
