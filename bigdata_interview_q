@@ -3,7 +3,7 @@ How do you manage same dependency in multiple projects.   -> https://dzone.com/a
 3. How do you control volume of data getting injected into you data warehouse.
 4. What is you day to day activities
 5. What are the KPI's you use as part of your project.
-6. 
+6. tesr
   Market Date	Closing Price
 07-07-2015	51.38
 08-07-2015	52.3
@@ -68,3 +68,4 @@ Department table:
 | 1  | IT    |
 | 2  | Sales |
 +----+
+
